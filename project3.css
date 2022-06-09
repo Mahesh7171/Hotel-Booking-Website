@@ -1,0 +1,682 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 900vh;
+  width: 100%;
+}
+#navbar {
+  width: 10%;
+}
+#navbar ul li a:hover {
+  color: lawngreen;
+}
+.heading {
+  position: absolute;
+  top: 35%;
+  color: white;
+  font-size: 3rem;
+  left: 10%;
+}
+.fa-hotel {
+  color: lawngreen;
+  font-size: 2rem;
+}
+.fa-times {
+  position: absolute;
+  top: 8%;
+  z-index: 999;
+  left: 43%;
+  display: none;
+}
+.p {
+  position: absolute;
+  top: 46%;
+  left: 10%;
+  color: white;
+}
+.rm {
+  position: absolute;
+  top: 55%;
+  left: 17%;
+  padding: 3px;
+}
+.cu {
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  padding: 3px;
+}
+.cu a {
+  text-decoration: none;
+  color: black;
+}
+.cu:hover {
+  background-color: lawngreen;
+  color: white;
+}
+.rm:hover {
+  background-color: lawngreen;
+  color: white;
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 5%;
+}
+.carousel-control-next-icon {
+  position: absolute;
+  right: 5%;
+}
+.register {
+  height: 20vh;
+  width: 80%;
+  background-color: black;
+  position: absolute;
+  top: 130%;
+  left: 10%;
+}
+.register h2 {
+  font-size: 22px;
+  position: absolute;
+  left: 1%;
+  top: 32%;
+  color: white;
+}
+#date {
+  position: absolute;
+  left: 22%;
+  top: 32%;
+}
+#date2 {
+  position: absolute;
+  left: 37%;
+  top: 32%;
+}
+#text {
+  position: absolute;
+  left: 51%;
+  top: 33%;
+  font-size: 14px;
+}
+#text2 {
+  position: absolute;
+  left: 67%;
+  top: 33%;
+  font-size: 14px;
+}
+#check {
+  position: absolute;
+  left: 83%;
+  top: 30%;
+  cursor: pointer;
+  color: black;
+  padding: 3px;
+  
+}
+#check:hover {
+  background-color: lawngreen;
+  color: white;
+}
+#child {
+  position: absolute;
+  left: 52%;
+  top: 32%;
+  border: 1px solid;
+  width: 145px;
+}
+#Adults {
+  position: absolute;
+  left: 68%;
+  top: 32%;
+  border: 1px solid;
+  width: 145px;
+}
+/* Section 2 */
+#sec2 {
+  height: 70vh;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 160%;
+}
+#sec2 img {
+  position: relative;
+  left: 60%;
+  top: -20%;
+}
+#sec2 p {
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 5%;
+}
+#sec2 h1 {
+  position: absolute;
+  left: 10%;
+  font-size: 8rem;
+  top: 5%;
+  opacity: 0.1;
+}
+#sec2 h3 {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  font-size: 2rem;
+}
+.btn2 {
+  position: absolute;
+  top: 215%;
+  left: 20%;
+  padding: 2px;
+}
+.btn2:hover {
+  background-color: lawngreen;
+  color: white;
+}
+/* Section 3 */
+#Rooms {
+  height: 200vh;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 230%;
+}
+#Rooms h1 {
+  position: absolute;
+  left: 27%;
+  top: 3%;
+  font-size: 10rem;
+  opacity: 0.1;
+}
+#Rooms h3 {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  font-size: 2rem;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  width: 18rem;
+  cursor: pointer;
+}
+.card1 {
+  position: absolute;
+  left: 2%;
+  top: 25%;
+  cursor: pointer;
+}
+.card1:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card2 {
+  position: absolute;
+  left: 27%;
+  top: 25%;
+}
+.card:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card3 {
+  position: absolute;
+  left: 52%;
+  top: 25%;
+}
+.card3:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card4 {
+  position: absolute;
+  left: 77%;
+  top: 25%;
+}
+.card4:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card5 {
+  position: absolute;
+  top: 63%;
+  left: 2%;
+}
+.card5:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card6 {
+  position: absolute;
+  left: 27%;
+  top: 63%;
+}
+.card6:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card7 {
+  position: absolute;
+  right: 27%;
+  top: 63%;
+}
+.card7:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card8 {
+  position: absolute;
+  top: 63%;
+  left: 77%;
+}
+.card8:hover {
+  box-shadow: 10px 10px 10px 0px #888888;
+}
+.card-title {
+  color: lawngreen;
+  text-align: center;
+  font-size: 2rem;
+}
+.btn3 {
+  cursor: pointer;
+}
+#bn a {
+  text-decoration: none;
+  color: black;
+}
+#bn:hover {
+  background-color: lawngreen;
+  color: white;
+}
+/* section 4 */
+#gallery {
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 105%;
+}
+#gallery h1 {
+  position: absolute;
+  top: -1%;
+}
+#gallery h3 {
+  position: absolute;
+  top: 16%;
+}
+.owl-carousel {
+  top: 125%;
+}
+/* section 6 */
+.services {
+  height: 130vh;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 148%;
+}
+.services h1 {
+  position: absolute;
+  top: -2%;
+  font-size: 8rem;
+}
+.services h3 {
+  position: absolute;
+  left: 41%;
+  top: 6%;
+}
+.img {
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+.food,
+.card {
+  position: absolute;
+  top: 165%;
+  left: 2%;
+}
+.fitness,
+.card {
+  position: absolute;
+  top: 165%;
+  right: 52%;
+}
+.inhouse,
+.card {
+  position: absolute;
+  top: 190%;
+  right: 52%;
+}
+.spa,
+.card {
+  position: absolute;
+  top: 190%;
+  right: 77%;
+}
+#reviews {
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+  top: 216%;
+}
+.para1 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 80%;
+  color: white;
+}
+.fa-comment-dots {
+  font-size: 3rem;
+  color: lawngreen;
+  position: absolute;
+  top: 8%;
+  left: 48%;
+}
+#section8 {
+  height: 110vh;
+  width: 100%;
+  background-image: url("https://media.istockphoto.com/photos/modern-luxury-house-with-private-infinity-pool-in-dusk-picture-id1319453433?b=1&k=20&m=1319453433&s=170667a&w=0&h=LlrZ-UCCXiEgTFRT7Ls41Z7YafxEG7lr7VtTnBO8uFc=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 246%;
+}
+#section8 h5 {
+  position: absolute;
+  left: 42%;
+  top: 14%;
+  font-size: 1.3rem;
+  color: white;
+}
+#section8 h4 {
+  position: absolute;
+  left: 28%;
+  top: 4%;
+  font-size: 8rem;
+  opacity: 0.5;
+  color: lawngreen;
+  backdrop-filter: blur(5px);
+}
+.form {
+  height: 60vh;
+  width: 90vh;
+  background-image: url("https://media.istockphoto.com/photos/modern-luxury-house-with-private-infinity-pool-in-dusk-picture-id1319453433?b=1&k=20&m=1319453433&s=170667a&w=0&h=LlrZ-UCCXiEgTFRT7Ls41Z7YafxEG7lr7VtTnBO8uFc=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 26%;
+  top: 30%;
+  border-radius: 10px;
+}
+#name {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+::-webkit-input-placeholder {
+  color: black;
+  font-size: 13px;
+}
+.fa-user-check {
+  color: lawngreen;
+  position: absolute;
+  top: 26%;
+  left: 3%;
+}
+#email {
+  position: absolute;
+  left: 60%;
+  top: 25%;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+.fa-envelope {
+  color: lawngreen;
+  position: absolute;
+  top: 26%;
+  left: 58%;
+  font-size: 1rem;
+}
+#password {
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+.fa-lock {
+  color: lawngreen;
+  position: absolute;
+  font-size: 1rem;
+  top: 41%;
+  left: 58%;
+}
+#phoneno {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+.fa-phone {
+  color: lawngreen;
+  position: absolute;
+  top: 41%;
+  left: 3%;
+  font-size: 1rem;
+}
+#dt {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  width: 200px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+.fa-calendar-days {
+  color: lawngreen;
+  position: absolute;
+  font-size: 1rem;
+  top: 56%;
+  left: 3%;
+}
+#dt2 {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  width: 200px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+.fa-calendar {
+  color: lawngreen;
+  position: absolute;
+  font-size: 1rem;
+  top: 56%;
+  left: 58%;
+}
+.rooms,
+select {
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  width: 200px;
+  text-align: center;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+select option {
+  color: black;
+}
+.fa-house {
+  color: lawngreen;
+  font-size: 1rem;
+  position: absolute;
+  top: 70%;
+  left: 58%;
+}
+.guest,
+select {
+  position: absolute;
+  top: 65%;
+  margin-left: 3%;
+  background: transparent;
+}
+.fa-users-viewfinder {
+  color: lawngreen;
+  font-size: 1rem;
+  position: absolute;
+  top: 70%;
+  left: 3%;
+}
+.btn5 {
+  position: absolute;
+  top: 288%;
+  left: 60%;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid;
+  background: transparent;
+  color: white;
+}
+.btn5:hover {
+  background-color: lawngreen;
+  color: white;
+}
+/* Section9 */
+#contactus {
+  height: 68vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 832%;
+}
+#contactus h5 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+}
+.lorem {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  color: aliceblue;
+  font-size: 13px;
+}
+.links {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  font-size: 1.5rem;
+  letter-spacing: 0.8rem;
+  cursor: pointer;
+  color: white;
+}
+.links2 {
+  position: absolute;
+  left: 65%;
+  top: 20%;
+  list-style: none;
+  line-height: 3rem;
+  color: aliceblue;
+}
+.links2 h6 {
+  position: absolute;
+  top: -14%;
+}
+.contact {
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  color: aliceblue;
+}
+.contact h6 {
+  position: absolute;
+  top: -50%;
+}
+.location {
+  position: absolute;
+  left: 80%;
+  top: 42%;
+  color: aliceblue;
+}
+.no {
+  position: absolute;
+  left: 82%;
+  top: 50%;
+  color: aliceblue;
+}
+.fa-phone-flip {
+  position: absolute;
+  right: 110%;
+  top: 10%;
+}
+.mail {
+  position: absolute;
+  left: 82%;
+  top: 60%;
+  color: aliceblue;
+}
+.fa-envelope-open-text {
+  position: absolute;
+  right: 105%;
+  top: 10%;
+}
+.copy {
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  color: white;
+}
+span {
+  color: lawngreen;
+}
